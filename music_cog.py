@@ -15,7 +15,6 @@ class music_cog(commands.Cog):
 
     #store our current channel
     self.vc = ""
-
   # find the urls on the internet
   def search_yt(self, item):
     with YoutubeDL(self.YDL_OPTIONS) as ydl:
